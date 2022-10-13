@@ -1,0 +1,46 @@
+name: 🔆 Have a Solution ?
+description: Have a new Solution? Please suggest!
+title: '[Blind75-Q]:"your-topic" ("your-question-no.") in "your-programming-lang"'
+labels: ['question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add value to the project 💝 !
+  - type: input
+    id: topic
+    attributes:
+      label: ✏️ Topic
+      description: write the name of the topic
+      placeholder: Type the topic here...
+    validations:
+      required: true
+  - type: input
+    id: question
+    attributes:
+      label: ✏️ Question Number
+      description: write the question number which you want to solve
+      placeholder: Type Question number here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Make Sure you have read the [contribution guidelines]().. 🤗
+        - first go the the folder of programming language of your choice 
+        - if your desired language is not present then,
+          - make another copy of "`your-laguage`" folder, rename it to your desired language
+        - create a folder inside the programing language of your coice and name it "topic(question-no)" , example : `array(2)`
+ 
+        > _NOTE : :heavy_check_mark: in this case __array__ is the __topic__ name and __2__ is the __question__ number_ 
+
+        - now write the answer with proper comments.
+        - create a `README.md` file in the same folder (your programming language folder) and write down the space and time complexcity, also write how you approached the question ( what were the steps, how was your thinking process)
+        - Open the `CHECKLIST.md` 
+        - :heavy_check_mark: mark the Question you have done as checked 
+  - type: markdown
+    attributes:
+      value: |
+        Before Submitting Make Sure To See a Preview Of This Message.. 🤗
+        
+    
